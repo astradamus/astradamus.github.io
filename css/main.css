@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+body {
+    background: linear-gradient(170deg, darkslategray 30%, darkgreen 130%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1#gameover_h1 {
+    color:red;
+    text-align:center;
+}
+h2#gameover_h2 {
+    color:white;
+    text-align:center;
+}
+h3#gameover_retry {
+    color:whitesmoke;
+    text-align:center;
+}
+h4#gameover_score {
+    color:yellow;
+    text-align:center;
+}
+
+
+#_canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: dashed;
+}
+.overlay_gameover {
+    background: linear-gradient(180deg, rgba(255,38,38,0.6) 0, rgba(0,0,0,0) 85%);
+}
+#_menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
